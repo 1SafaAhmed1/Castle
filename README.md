@@ -1,2 +1,2 @@
 # Castle
-CSE 482 project where we used PHP to create a online Library Management System
+An online Library Management System using HTML & CSS for frontend and PHP & mySQL for backend.
