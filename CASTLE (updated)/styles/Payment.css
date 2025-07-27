@@ -1,0 +1,177 @@
+html {
+    background-image: url(../images/finalbg.jpg);
+}
+
+body {
+    
+    background-position: top center; 
+    background-repeat: no-repeat;
+     font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1.125rem;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+
+
+
+main {
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.herobox1 {
+    flex: 2;
+    padding-right: 100px;
+}
+
+.herobox2 {
+    flex: 0.5;
+    
+}
+
+h1 {
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.228);
+    color: rgb(1, 189, 189)
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+    
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.228);
+}
+
+p {
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+
+.mybutton {
+    background-color: #4f6a92;
+    text-align: center;
+    color: #ddfc55;
+    font-family: 'Playfair Display', serif;
+    padding: 10px 25px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.228);
+    margin-bottom: 10px;    
+    
+}
+.paybutton{
+    background-color: #0d8553;
+    text-align: center;
+    color: #b8b8b8;
+    font-family: 'Playfair Display', serif;
+    padding: 3px 20px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.228);
+    margin-bottom: 20px;    
+    
+}
+
+.mybutton:hover {
+    background-color: rgb(29, 213, 103);
+    transition-duration: 2s;
+}
+
+a.mybutton {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+nav a.mybutton {
+    margin-left: 30px;
+}
+
+.navbutton {
+    border: 1px solid black;
+    padding: 11px 20px;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    position: relative;
+}
+
+
+.navbutton:hover{
+    background: #FFFFFF;
+    transition-duration: 1s;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.navbutton:hover .dropdown {
+    display: block;
+}
+
+.dropdown .navbutton {
+    width: 120px;
+    background-color: rgb(65, 241, 203);
+}
+
+.dropdown .navbutton a {
+    color: #000000;
+}
+
+footer{
+    position: fixed;
+    bottom:5px;
+}
+
+
+
+.column {
+    float: left;
+    width: 50%;
+    min-height: 300px;
+    margin-bottom: 50px;
+    
+  }
+.column h2{
+    color: rgb(1, 189, 189);
+}
+.column p{
+    color: #00aa9c;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    display: table;
+    clear: both;
+  }

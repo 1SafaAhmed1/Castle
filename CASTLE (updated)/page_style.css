@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family:'Poppins', sans-serif;
+  }
+
+  .navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  nav{
+    flex: 1;
+    text-align: right;
+  }
+  nav ul{
+    display: inline-block;
+    list-style-type: none;
+  }
+  nav ul li{
+    display: inline-block; 
+    margin-right: 20px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color:white;
+  }
+  p{
+    color:#555;
+  }
+  .row{
+    display: inline-flex;
+    max-width: 1700px;
+  }
+  .row h5{
+    color:grey;
+  }
+  .container{
+    max-width: 1700px;
+    margin: auto; 
+    padding-left: 25px;
+    padding-right: 25px;
+    background: darkgreen;
+  }
+  .small-container{
+    max-width: 1700px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+  } 
+ 
+  .row-2{
+    margin:100p auto 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    padding-bottom: 10px;
+  }
+  select{
+    padding: 8px;
+  }
+  select:focus{
+    outline:none;
+  }
+  .row-3{
+    margin:100p auto 50px;
+  }
+  .page-btn{
+    margin: 0 auto 80px;
+  }
+  .page-btn span{
+    display: inline-block;
+    border: 1px solid darkgreen;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor:pointer;
+  }
+  .page-btn span:hover{
+    background: darkgreen;
+    color:white;
+  }
+  .col{
+    flex-basis: 30%;
+    padding: 10px;
+    min-width: 250px;
+    margin-bottom: 30px;
+    transition: transform 0.5s;
+  }
+  .col img{
+    cursor: pointer;
+    width: 160px;
+    height: 160px;
+  }
+  .col:hover{
+    transform: translateY(-5px);
+  }
+  .rating .fa{
+    color: darkgreen;
+  }
+
+  .title{
+  color:darkgreen
+  }
+
+  .footer{
+    background:darkgreen;
+    display: flex;
+    padding: 10px;
+    text-align: left;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .footer ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin: auto;
+  }
+  .footer ul li{
+    display: inline-block; 
+    margin-right: 20px;
+    
+  }
+  .footer img{
+    cursor: pointer;
+  }
+  .footer h3{
+    color: white;
+  }
+
+  .menu-icon{
+    width: 25px;
+    margin-left: 20px;
+    display: none;
+  }
+
+  .ven_table{
+    font-family: Arial, 'Poppins', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .ven_table td,
+  .ven_table th{
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .ven_table tr:nth-child(even){
+    background-color: #f2f2f2;
+  }
+  
+  .ven_table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .ven_table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: darkgreen;
+    color: white;
+  }
+
+  .btn{
+    display: inline-block;
+    background: darkgreen;
+    color: white;
+    padding: 8px 40px;
+    margin: 30px 0;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    text-decoration-line: none;
+    transition: background 0.5s;
+  }
+
+  .btn:hover{
+    border-color: darkgreen;
+    background:rgb(122, 148, 122);
+    color: darkgreen;
+
+  }
+  
+
+

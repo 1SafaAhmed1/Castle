@@ -1,0 +1,215 @@
+html {
+    background-image: url(../images/finalbg.jpg);
+}
+
+body {
+    /*background-image: url(images/North-South-University.svg);*/
+    background-position: top center; 
+    background-repeat: no-repeat;
+     font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1.125rem;
+}
+
+nav a{
+    color: black;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    width: 1080px;
+    min-height: 00px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+header {
+    display: flex;
+    
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+
+
+h1 {
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.228);
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.navbutton {
+    border: 1px solid black;
+    padding: 11px 25px;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    position: relative;
+}
+
+.navbutton:hover{
+    background: #FFFFFF;
+    transition-duration: 1s;
+}
+
+
+.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.navbutton:hover .dropdown {
+    display: block;
+}
+
+.dropdown .navbutton {
+    width: 120px;
+    background-color: rgb(65, 241, 203);
+}
+
+.dropdown .navbutton a {
+    color: #000000;
+}
+
+
+.inputwrapper {
+    margin-bottom: 30px;
+}
+
+input[type=text], input[type=email], textarea {
+    padding: 12px 20px; 
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+}
+
+.addcourse {
+    border: 3px solid black;
+    padding: 1px 5px;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    position: relative;
+    background: rgb(179, 207, 122);
+}
+
+
+
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 5px;
+    
+}
+footer p{
+    font-size: small;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    min-height: 300px;
+    margin-bottom: 50px;
+    
+  }
+.column h2{
+    color: rgb(1, 189, 189);
+    margin-bottom: 20px;
+}
+.column p{
+    color: #000000;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    display: table;
+    clear: both;
+  }
+
+
+.drop{
+    border: 1px solid black;
+    padding: 5px 20px;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    position: relative;
+    font-size: 0.75em;
+    margin-bottom: 5px;
+}
+
+.drop:hover{
+    background-color: #aa0000;
+    transition-duration: 1s;
+}
+
+  .css-checkbox { position: absolute; overflow: hidden; clip: rect(0 0 0 0); height: 1px; width: 1px; margin: 1px; padding: 0; border: 0; }#inputPreview { 
+     
+    justify-content: center;	}.css-checkbox + label { 
+        position: relative; font-size: 10px; cursor: pointer; 
+        display: inline-flex; align-items: center; 
+        height: 21px; color: rgb(0, 0, 0); }.css-checkbox + label::before { content: " "; display: inline-block; vertical-align: middle; margin-right: 3px; width: 15px; height: 15px; background-color: white; border-width: 3px; border-style: groove; border-color: rgb(42, 181, 125); 
+            border-radius: 7px; box-shadow: rgba(42, 42, 42, 0.52) 0px 0px 5px 0px; }.css-checkbox:checked + label::after { 
+                content: " "; background-image: 
+                url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSIjMjI5NDhlIiBkPSJNMTczLjg5OCA0MzkuNDA0bC0xNjYuNC0xNjYuNGMtOS45OTctOS45OTctOS45OTctMjYuMjA2IDAtMzYuMjA0bDM2LjIwMy0zNi4yMDRjOS45OTctOS45OTggMjYuMjA3LTkuOTk4IDM2LjIwNCAwTDE5MiAzMTIuNjkgNDMyLjA5NSA3Mi41OTZjOS45OTctOS45OTcgMjYuMjA3LTkuOTk3IDM2LjIwNCAwbDM2LjIwMyAzNi4yMDRjOS45OTcgOS45OTcgOS45OTcgMjYuMjA2IDAgMzYuMjA0bC0yOTQuNCAyOTQuNDAxYy05Ljk5OCA5Ljk5Ny0yNi4yMDcgOS45OTctMzYuMjA0LS4wMDF6Ii8+PC9zdmc+"); 
+                background-repeat: no-repeat; background-size: 12px 12px; background-position: center center; position: absolute; 
+                display: flex; justify-content: center; 
+                align-items: center; margin-left: 0px; left: 0px; 
+                top: 0px; text-align: center; 
+                background-color: transparent; font-size: 10px; 
+                height: 21px; width: 21px; }
+
+.course{
+    width: 100px;
+  border: 5px solid rgb(0, 0, 0);
+  padding-left: 10px;
+  padding-right: 20px;
+  margin-bottom: 5px;
+}
+
+.course p{
+    font-size: 1em;
+    margin-bottom: -2px;
+    margin-top: -3px;
+}
+
+.timer{
+    border: 5px solid black;
+    padding: 0px 10px;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    position: relative;
+    font-size: 0.75em;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    background: rgb(201, 2, 2);
+}
+
+.timer p{
+    margin-top: 0px;
+}

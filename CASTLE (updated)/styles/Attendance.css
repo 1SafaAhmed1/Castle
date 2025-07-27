@@ -1,0 +1,153 @@
+html {
+    background-image: url(../images/finalbg.jpg);
+}
+
+body {
+    /*background-image: url(images/North-South-University.svg);*/
+    background-position: top center; 
+    background-repeat: no-repeat;
+     font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1.125rem;
+}
+
+nav a{
+    color: black;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(164, 164, 164);
+}
+
+.container {
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+header {
+    display: flex;
+    
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+
+
+h1 {
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.228);
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.navbutton {
+    border: 1px solid black;
+    padding: 11px 25px;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    position: relative;
+}
+
+.navbutton:hover{
+    background: #FFFFFF;
+    transition-duration: 1s;
+}
+
+
+.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.navbutton:hover .dropdown {
+    display: block;
+}
+
+.dropdown .navbutton {
+    width: 120px;
+    background-color: rgb(65, 241, 203);
+}
+
+.dropdown .navbutton a {
+    color: #000000;
+}
+
+
+.inputwrapper {
+    margin-bottom: 30px;
+}
+
+input[type=text], input[type=email], textarea {
+    padding: 12px 20px; 
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+}
+
+
+
+
+.herobox1 .navbutton{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-size: 2rem;
+    
+    padding: 5px 10px 5px 10px ;
+}
+
+.tablerow{
+    margin-top: 1em;
+    position: absolute;
+    text-align: center;
+    
+    color: #9ee48c;
+  
+     
+    
+}
+table, th {
+    border: 3px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    border-spacing: 5px;
+    font-size: 1.03em;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+td{
+    padding: 5px 10px;
+    font-size: 0.75em;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 5px;
+    
+}
+footer p{
+    font-size: small;
+}

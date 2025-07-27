@@ -1,0 +1,25 @@
+footer {
+    text-decoration: none;
+    position: fixed;
+    bottom: 0;
+    left: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+nav a.mybutton {
+    margin-left: 30px;
+}
+
+.navbutton {
+    border: 1px solid black;
+    padding: 11px 25px;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    position: relative;
+}
+
+
+.nsulogo{
+    width: 5em;
+}
