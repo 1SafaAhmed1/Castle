@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  margin: 100px;
+  padding: 100px;
+  background: linear-gradient(120deg,#18832a,#ffffffcc);
+  height: 100vh;
+}
+.form_field{
+  display: center;
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  top: 58%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 8px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0);
+}
+.form_field h1{
+  text-align: center;
+  padding: 20px;
+}
+.form_field form{
+  padding: 0 20px;
+}
+
+form .txt_field{
+  position: relative;
+  border-bottom: 2px solid gray;
+  margin: 30px 0;
+}
+
+.txt_field input{
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+.txt_field label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: gray;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: .5s;
+}
+.txt_field span::before{
+  content: '';
+  position: sticky;
+  top: 40px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background:darkgreen;
+  transition: .5s;
+}
+
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label{
+  top: -5px;
+  color:darkgreen;
+}
+
+.name{
+  margin-bottom: -25px;
+}
+
+.phn input[type=number] {
+  -moz-appearance: textfield;
+}
+input[type=number]::-webkit-inner-spin-button {
+  opacity: 1;
+}
+.gend{
+  padding: 0 5px;
+  width: 100%;
+  height: 50px;
+  position: sticky;
+}
+
+.gend label{
+  color: gray;
+}
+.gend label::selection{
+  color: darkgreen;
+  outline: none;
+  transition: 0.2s;
+}
+
+.dob label,
+.uf label,
+.usrtype label{ 
+  color: gray;
+} 
+.dob{
+  left: 10px;
+  margin-bottom: -28px;
+}
+
+.usrtype { 
+  padding: 0 8px;
+  display: inline-flex; 
+  position: sticky; 
+  width: 100%;
+} 
+
+.num{
+  color: gray;
+}
+input[type="submit"]{
+  width: 100%;
+  height: 50px;
+  background: darkgreen;
+  border-radius: 25px;
+  font-size: 18px;
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.registration{
+  margin: 30px 0;
+  text-align: center;
+  font-size: 16px;
+  color: gray;
+}
+.registration a{
+  color: darkgreen;
+  text-decoration: none;
+}
+.registration a:hover{
+  color: darkred;
+  outline: none;
+  transition: 0.2s;
+}
+.passw{
+  margin: 10px 0;
+  font-size: 14px;
+  color: gray;
+}
+.passw a{
+  color: darkgreen;
+  text-decoration: none;
+}
+.passw a:hover{
+  color: darkred;
+  outline: none;
+  transition: 0.2s;
+}
+
+.uf{
+  margin: 20px;
+  margin-left: 6px;
+}
